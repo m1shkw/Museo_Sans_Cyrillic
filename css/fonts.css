@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/AnyConv.com__museosanscyrl_100.woff2') format('woff2'),
+         url('../fonts/museosanscyrl_100.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/Museo\ Sans\ Cyrl\ 100\ Italic.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 100\ Italic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/Museo\ Sans\ Cyrl\ 300.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 300.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/Museo\ Sans\ Cyrl\ 300\ Italic.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 300\ Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/AnyConv.com__museosanscyrl_500.woff2') format('woff2'),
+         url('../fonts/museosanscyrl_500.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/Museo\ Sans\ Cyrl\ 500\ Italic.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 500\ Italic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/Museo\ Sans\ Cyrl\ 700.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 700.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/Museo\ Sans\ Cyrl\ 700\ Italic.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 700\ Italic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/AnyConv.com__Museo\ Sans\ Cyrl\ 900.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 900.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Museo Sans Cyrl';
+    src: url('../fonts/AnyConv.com__Museo\ Sans\ Cyrl\ 900\ Italic.woff2') format('woff2'),
+         url('../fonts/Museo\ Sans\ Cyrl\ 900\ Italic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
