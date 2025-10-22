@@ -1,5 +1,140 @@
-body { 
-    width: 1440;
-    margin: 0 auto;
-    display: block;
- }
+/* основной контейнер секции */
+.hero-section {
+    position: relative; 
+    width: 100%;
+    height: 1500px; 
+    overflow: hidden;
+}
+
+/* 1. растровая картинка губ (фон) */
+.hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    z-index: 1; /* самый нижний слой */
+}
+
+/* 2. колонтитулы */
+.header-titles {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    z-index: 10; /* поверх всего */
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: #E56D8F;
+}
+
+/* 3.1 контейнер для svg и букв */
+.letter-blocks-svg-container {
+    position: absolute;
+    top: 138px;
+    left: 50px;
+    right: 50px;
+    z-index: 10;
+    width: calc(100% - 100px); 
+    display: flex;
+}
+
+/* 3.2 svg-файл */
+.vector-blocks {
+    width: 100%; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+/* 4. буквы, расположенные поверх svg */
+.letter-blocks-svg-container .letter {
+    position: absolute;
+    top: 25px;
+
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #130C0E;
+    text-align: center;
+    line-height: 70px;
+    width: 70px;
+    
+    z-index: 15; /* выше svg */
+}
+
+.letter:nth-child(2) { /* # */
+    left: 22%; 
+    width: 5%;
+}
+.letter:nth-child(3) { /* M */
+    left: 32.2%;
+}
+.letter:nth-child(4) { /* U */
+    left: 42.4%;
+}
+.letter:nth-child(5) { /* S */
+    left: 52.5%;
+}
+.letter:nth-child(6) { /* E */
+    left: 62.8%;
+}
+.letter:nth-child(7) { /* O */
+    left: 73%;
+}
+
+/* 5. белый текст */
+.central-title {
+    position: absolute;
+    top: 281px; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0; 
+    
+    white-space: nowrap;
+}
+
+/* 6. бегущие строки */
+.running-line {
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    color: #130C0E;
+}
+
+/* первая строка */
+.line-top {
+    top: 1213px; 
+    width: 90vw; 
+}
+
+.line-top .word:not(:last-child) {
+    margin-right: 8.5vw;
+}
+
+/* вторая строка */
+.line-bottom {
+    top: 1354px;
+    left: -2vw; 
+    width: 90vw; 
+}
+
+.line-bottom .word:not(:last-child) {
+    margin-right: 6.8vw;
+}
