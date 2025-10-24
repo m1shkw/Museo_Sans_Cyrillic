@@ -379,7 +379,7 @@
 /* 6. cyrillic */
 .large-title.cyrillic {
     top: auto;
-    bottom: 0; 
+    bottom: 35px; 
     z-index: 15;
     transform: translateX(calc(-50% + 80px)); 
 }
@@ -676,7 +676,7 @@
 /* контейнер 8-й секции */
 .creator-section {
     position: relative;
-    height: 1045px;
+    height: 1000px;
     width: 100%;
     box-sizing: border-box;
     overflow: hidden; 
@@ -723,7 +723,7 @@
 /* 4. наборный текст */
 .creator-description {
     position: absolute;
-    top: 600px;
+    top: 570px;
     left: 50px;
     width: 500px;
     z-index: 10;
@@ -738,7 +738,7 @@
 /* 5. вектор стрелка */
 .creator-vector.arrow {
     position: absolute;
-    top: 770px;
+    bottom: 96px;
     left: 270px;
     z-index: 10;
 }
@@ -754,7 +754,7 @@
 /* 7. белый заголовочный текст */
 .creator-subtitle.right-aligned-content {
     position: absolute;
-    bottom: 80px;
+    bottom: 85px;
     right: 91px;
     
     font-family: 'Museo Sans Cyrl', sans-serif;
