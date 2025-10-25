@@ -333,7 +333,7 @@
 /* 2. губы с брекетами */
 .pangram-image.teeth {
     position: absolute;
-    top: 220px;
+    top: 180px;
     left: 695px;
     z-index: 5;
 }
@@ -341,7 +341,7 @@
 /* 3. наборный текст */
 .description-text.left-aligned-content {
     position: absolute;
-    top: 710px; 
+    top: 625px; 
     left: 50px;
     width: 620px;
     z-index: 10;
@@ -356,7 +356,7 @@
 /* 4. картинка символов */
 .pangram-image.symbols {
     position: absolute;
-    top: 935px; 
+    top: 845px; 
     left: 20px;
     z-index: 10;
 }
@@ -364,7 +364,7 @@
 /* 5. заголовок: панграмма, символы */
 .section-label.left-aligned-content {
     position: absolute;
-    top: 1700px;
+    top: 1600px;
     left: 50px;
     z-index: 10;
     margin: 0;
@@ -379,7 +379,7 @@
 /* 6. cyrillic */
 .large-title.cyrillic {
     top: auto;
-    bottom: 35px; 
+    bottom: 80px; 
     z-index: 15;
     transform: translateX(calc(-50% + 80px)); 
 }
