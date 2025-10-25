@@ -341,7 +341,7 @@
 /* 3. наборный текст */
 .description-text.left-aligned-content {
     position: absolute;
-    top: 625px; 
+    top: 620px; 
     left: 50px;
     width: 620px;
     z-index: 10;
