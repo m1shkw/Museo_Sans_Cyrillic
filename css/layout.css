@@ -687,7 +687,7 @@
 .creator-image.faces {
     position: absolute;
     z-index: 10;
-    top: 120px;
+    top: 100px;
     left: 50px;
     right: 50px;
     width: calc(100% - 100px);
